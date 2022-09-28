@@ -24,7 +24,7 @@ def ud():
     print(' [2] EXIT')
     opt = input('\n   Choose option >>> ')
     if opt == '1':
-        os.system('xdg-open https://youtube.com/channel/UCG8CSxk8KQMZuVfRhCa6FBw')
+        os.system('xdg-open ')
         FD()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
@@ -37,7 +37,7 @@ def FD():
     print(' [2] EXIT')
     opt = input('\n  \x1b[1;32m Choose option >>> ')
     if opt == '1':
-        os.system('xdg-open https://youtu.be/y837qD_AO6Q')
+        os.system('xdg-open ')
         o()
         return None
     None('\n\x1b[1;31mEXIT\x1b[0;97m')
@@ -57,7 +57,7 @@ def o():
     if opt == '1':
         i()
     if None == '2':
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100082840689031')
+        os.system('xdg-open https://www.facebook.com/saeed.sardar.3')
         return None
     if None == '3':
         os.system('xdg-open https://youtube.com/channel/UCG8CSxk8KQMZuVfRhCa6FBw')
@@ -179,7 +179,7 @@ logo =                                          ("""
 \033[1;32m     \033[1;35mGITHUB       :  \033[1;35mTEAM-CRACKER
 \033[1;32m     \033[1;36mTOOL STATUS  :  \033[1;36mTOOL IS PAID
 \033[1;32m     \033[1;35mTEAM         :  \033[1;35mCRACKER
-\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.3
+\033[1;32m     \033[1;36mTOOL VIRSION :  \033[1;36m2.4
 \033[1;37m================= \33[32;45mOZA\33[0;m =====================
  
        \33[37;41m\t WELLCOME TO CRACKER TOOL\33[0;m
@@ -342,14 +342,14 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(ARYAN-CPðŸ¤•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
-                open('/sdcard/AWAIS-CP.txt', 'a').write( cid+' | '+ps+' \n')
+                print('    \33[1;30m(MALANG-CPðŸ¤•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                open('/sdcard(MALANG-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write('\r     %s[ARYAN] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
+        sys.stdout.write('\r     %s[MALANG] [%s/%s]  OK:- %s  CP:- %s \r'%(H,loop,tl,len(oks),len(cps))),
         sys.stdout.flush()
     except:
         pass
