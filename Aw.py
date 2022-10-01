@@ -205,9 +205,9 @@ else:
     
 try:
     print('\n\n\033[1;33mLoading asset files ... \033[0;97m')
-    v = 5.2
-    update = ('5.2')
-    update = ('5.2')
+    v = 5.3
+    update = ('5.3')
+    update = ('5.3')
     if str(v) in update:
         os.system('clear')
     else:pass
@@ -280,8 +280,8 @@ def i():
         for love in user:
             pwx = [love[1:]]
             uid = code+love
-            for Eman in HamiiID:
-                pwx.append(Eman)
+            for Eman in WaQasID:
+                pwx.append(ALi)
             manshera.submit(rcrack,uid,pwx,tl)
     print('\033[1;32m============================================')
     print('Crack process has been completed')
