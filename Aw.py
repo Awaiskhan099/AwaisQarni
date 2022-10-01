@@ -165,14 +165,14 @@ bu = current.month
 ha = current.day
 today = date.today()
 logo =                                          ("""   
-\033[1;32m         /$$$$$$  /$$      /$$
-\033[1;35m        /$$__  $$| $$  /$ | $$
-\033[1;35m       | $$  \ $$| $$ /$$$| $$
-\033[1;32m       | $$$$$$$$| $$/$$ $$ $$
-\033[1;32m       | $$__  $$| $$$$_  $$$$
-\033[1;35m       | $$  | $$| $$$/ \  $$$
-\033[1;35m       | $$  | $$| $$/   \  $$
-\033[1;32m       |__/  |__/|__/     \__/
+         /$$$$$$  /$$      /$$
+        /$$__  $$| $$  /$ | $$
+       | $$  \ $$| $$ /$$$| $$
+       | $$$$$$$$| $$/$$ $$ $$
+       | $$__  $$| $$$$_  $$$$
+       | $$  | $$| $$$/ \  $$$
+       | $$  | $$| $$/   \  $$
+       |__/  |__/|__/     \__/
 \033[1;37m================= \33[32;45mLAIBA\33[0;m =====================
 \033[1;32m     \033[1;33mCREATED BY\33[0;m   :  \033[1;33mAWAIS\33[0;m\033[1;32m && \033[1;33mMEMER\33[0;m
 \033[1;32m     \033[1;32mFACEBOK      : \033[1;34m AWAIS QARNI
@@ -205,9 +205,9 @@ else:
     
 try:
     print('\n\n\033[1;33mLoading asset files ... \033[0;97m')
-    v = 5.3
-    update = ('5.3')
-    update = ('5.3')
+    v = 5.2
+    update = ('5.2')
+    update = ('5.2')
     if str(v) in update:
         os.system('clear')
     else:pass
@@ -280,7 +280,7 @@ def i():
         for love in user:
             pwx = [love[1:]]
             uid = code+love
-            for Eman in hamiiID:
+            for Eman in HamiiID:
                 pwx.append(Eman)
             manshera.submit(rcrack,uid,pwx,tl)
     print('\033[1;32m============================================')
