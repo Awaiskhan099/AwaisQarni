@@ -1,5 +1,5 @@
 # Source Generated with Decompyle++
-# File: test.pyc (Python 3.9)
+# File: test.pyc (Python 4.0)
 
 import os
 import sys
@@ -205,9 +205,9 @@ else:
     
 try:
     print('\n\n\033[1;33mLoading asset files ... \033[0;97m')
-    v = 5.2
-    update = ('5.2')
-    update = ('5.2')
+    v = 5.3
+    update = ('5.3')
+    update = ('5.3')
     if str(v) in update:
         os.system('clear')
     else:pass
